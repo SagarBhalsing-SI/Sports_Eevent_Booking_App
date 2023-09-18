@@ -1,0 +1,51 @@
+
+.equipment-selection-checkbox-label {
+    display: block;
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .equipment-selection-checkbox-label input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Custom checkbox design */
+  .equipment-selection-checkbox-label .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px; 
+    width: 20px; 
+    background-color: #eee; 
+    border: 1px solid #ccc; 
+  }
+  
+
+  .equipment-selection-checkbox-label input[type="checkbox"]:checked + .checkmark {
+    background-color: #007bff;
+    border: 1px solid #007bff; 
+  }
+  
+
+  .equipment-selection-checkbox-label .checkmark::before {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .equipment-selection-checkbox-label input[type="checkbox"]:checked + .checkmark::before {
+    display: block;
+    width: 50%;
+    height: 50%;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    left: 5px;
+    top: 3px;
+  }
+  

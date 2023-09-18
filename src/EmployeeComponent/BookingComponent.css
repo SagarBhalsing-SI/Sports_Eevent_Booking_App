@@ -1,0 +1,40 @@
+/* BookingComponent.css */
+
+.booking-component-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .booking-component-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-component-label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .booking-component-select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .booking-component-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .booking-component-button:hover {
+    background-color: #0056b3;
+  }
+  

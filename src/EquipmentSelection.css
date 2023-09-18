@@ -1,0 +1,26 @@
+/* EquipmentSelection.css */
+
+.equipment-selection-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .equipment-selection-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .equipment-selection-label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .equipment-selection-select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,52 @@
+
+.booking-requests-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .booking-requests-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styles */
+  .booking-requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .booking-requests-table th,
+  .booking-requests-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .booking-requests-table th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Button styles */
+  .approve-button,
+  .reject-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .approve-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .reject-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
